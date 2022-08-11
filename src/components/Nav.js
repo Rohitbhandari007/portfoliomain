@@ -5,7 +5,7 @@ import { ColorModeSwitcher } from '../ColorModeSwitcher'
 
 function Nav() {
 
-    const bg = useColorModeValue('gray.100', '#282939');
+    const bg = useColorModeValue('gray.100', '#171f2e');
 
 
     let lol = '</>'

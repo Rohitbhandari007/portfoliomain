@@ -1,7 +1,7 @@
 import { React, useState, useEffect } from 'react'
 import { Flex, Text, Image, Box, Progress, Divider } from "@chakra-ui/react"
 import earth from './img/earth.svg'
-
+import './css/Mainpage.css'
 
 function Mainpage() {
 
@@ -26,7 +26,7 @@ function Mainpage() {
                 <Flex flexDir='column'
                     w="70vh"
                 >
-                    <Text fontSize='5xl'>Rohit Bhandari</Text>
+                    <Text fontSize='5xl' className='myname'>Rohit Bhandari</Text>
                     <Text fontSize='xl'>Web Developer</Text>
                     <Progress value={69} size='xs' colorScheme='pink' />
 
@@ -36,11 +36,9 @@ function Mainpage() {
                     boxSize='sm'
                 >
                     <Image
+                        className='App-logo'
+                        id='logo'
                         src={earth}
-                        transform={rotate}
-                        transitionDuration='5s'
-                        animation='rotating 2s linear infinite'
-
                     ></Image>
 
                 </Box>

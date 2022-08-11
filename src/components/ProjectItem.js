@@ -1,8 +1,8 @@
 import React from 'react'
-import { Flex, Text, Box, Image, Tag, Badge, Button } from '@chakra-ui/react'
+import { Flex, Text, Box, Image, Tag, Badge, Button, transition } from '@chakra-ui/react'
 import projectimg from './img/projectimg.png'
 
-function ProjectItem() {
+function ProjectItem({ title }) {
 
     const property = {
         imageUrl: projectimg,
@@ -17,12 +17,13 @@ function ProjectItem() {
 
     return (
         <>
-            <Flex mt='2vh'>
-                <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden' >
+            <Flex mt='2vh' cursor='pointer' borderRadius="lg" _hover={{ background: 'whiteAlpha.100', transition: '.2s ease', }}>
+
+                <Box maxW='lg' borderWidth='1px' borderRadius='lg' overflow='hidden' >
+                    <Text p={4}>{title}</Text>
                     <Image src={property.imageUrl} alt={property.imageAlt} />
 
                     <Box p='6'>
-                        {property.title}
                         <Box display='flex' alignItems='baseline'>
                             <Badge borderRadius='full' px='2' colorScheme='teal' ml={1}>
                                 Django
@@ -35,18 +36,9 @@ function ProjectItem() {
                             </Badge>
 
                         </Box>
-
-
-
-
                         <Box display='flex' mt='2' alignItems='center'>
-
-                            <Box as='span' ml='2' color='gray.600' fontSize='sm'>
-                                {property.reviewCount} stars
-                            </Box>
                             <Button size='xs' ml="1vh">View Site</Button>
                             <Button size='xs' ml="1vh">Source Code</Button>
-
                         </Box>
                     </Box>
                 </Box>

@@ -17,11 +17,8 @@ function Projects() {
             >
                 <Text fontSize='3xl' fontWeight='600'>Projects</Text>
 
-                <ProjectItem></ProjectItem>
+                <ProjectItem title={'Journal Note'}></ProjectItem>
 
-
-                <ProjectItem></ProjectItem>
-                <ProjectItem></ProjectItem>
 
             </Flex>
         </>

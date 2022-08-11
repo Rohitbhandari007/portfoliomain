@@ -8,6 +8,8 @@ import theme from './theme';
 import Mainpage from './components/Mainpage';
 import About from './components/About';
 import Projects from './components/Projects';
+import Tools from './components/Tools';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
       <Mainpage></Mainpage>
       <About></About>
       <Projects></Projects>
+      <Tools></Tools>
+      <Footer></Footer>
     </ChakraProvider>
   );
 }
