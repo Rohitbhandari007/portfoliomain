@@ -9,7 +9,7 @@ function Footer() {
     return (
         <>
             <Flex justifyContent='center' mt='10vh' bg={bg} h="10vh" alignItems='center'>
-                <Text> 2022 - Rohit Bhandari -All Rights Reserved</Text>
+                <Text textAlign='center'> 2022 - Rohit Bhandari -All Rights Reserved</Text>
             </Flex>
         </>
     )

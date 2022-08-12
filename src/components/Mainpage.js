@@ -24,11 +24,11 @@ function Mainpage() {
             >
 
                 <Flex flexDir='column'
-                    w="70vh"
+                    w={["70vh", "80vh"]}
                 >
-                    <Text fontSize='5xl' className='myname'>Rohit Bhandari</Text>
-                    <Text fontSize='xl'>Web Developer</Text>
-                    <Progress value={69} size='xs' colorScheme='pink' />
+                    <Text fontSize='5xl' className='myname' ml={['2vh', '0vh']}>Rohit Bhandari</Text>
+                    <Text fontSize='xl' ml={['2vh', '0vh']}>Web Developer</Text>
+                    <Progress value={69} size='xs' colorScheme='pink' ml={['2vh', '0vh']} />
 
 
                 </Flex>
@@ -39,6 +39,7 @@ function Mainpage() {
                         className='App-logo'
                         id='logo'
                         src={earth}
+                        mt={['10vh', '0vh']}
                     ></Image>
 
                 </Box>

@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   ChakraProvider,
+  Flex
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import Nav from './components/Nav';
@@ -15,12 +16,15 @@ function App() {
 
   return (
     <ChakraProvider theme={theme}>
-      <Nav></Nav>
-      <Mainpage></Mainpage>
-      <About></About>
-      <Projects></Projects>
-      <Tools></Tools>
-      <Footer></Footer>
+      <Flex overflowX='hidden' flexDir='column'>
+        <Nav></Nav>
+        <Mainpage></Mainpage>
+        <About></About>
+        <Projects></Projects>
+        <Tools></Tools>
+        <Footer></Footer>
+      </Flex >
+
     </ChakraProvider>
   );
 }

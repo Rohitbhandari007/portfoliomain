@@ -17,7 +17,14 @@ function Projects() {
             >
                 <Text fontSize='3xl' fontWeight='600'>Projects</Text>
 
-                <ProjectItem title={'Journal Note'}></ProjectItem>
+                <Flex flexDir={['column', 'row']} >
+                    <ProjectItem title={'Journal Note'}></ProjectItem>
+
+                    <ProjectItem title={'Journal Note'}></ProjectItem>
+
+
+                </Flex>
+
 
 
             </Flex>
