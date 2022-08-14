@@ -3,7 +3,6 @@ import {
     Flex, Text, Box, Image, Badge, Button, useDisclosure, Modal,
     ModalOverlay,
     ModalContent,
-    ModalHeader,
     ModalFooter,
     ModalBody,
     ModalCloseButton,
@@ -11,6 +10,8 @@ import {
 } from '@chakra-ui/react'
 import ProjectDetail from './ProjectDetail'
 import projectimg from './img/projectimg.png'
+import { SlideData } from "./SlideData";
+
 
 function ProjectItem({ title }) {
 
@@ -29,7 +30,7 @@ function ProjectItem({ title }) {
 
     return (
         <>
-            <Flex mt='2vh' cursor='pointer' borderRadius="lg" _hover={{ background: 'whiteAlpha.100', transition: '.2s ease', }} ml={2}>
+            <Flex mt='2vh' cursor='pointer' borderRadius="lg" ml={2}>
 
                 <Box maxW='lg' borderWidth='1px' borderRadius='lg' overflow='hidden' >
                     <Text p={4}>{title}</Text>
@@ -57,7 +58,9 @@ function ProjectItem({ title }) {
                                 <ModalContent>
                                     <ModalCloseButton />
                                     <ModalBody>
-                                        <ProjectDetail></ProjectDetail>
+                                        <Box w="50%" p={4} color="white" display='flex' flexDir='column'>
+                                            <ProjectDetail slides={SlideData}></ProjectDetail>
+                                        </Box>
                                     </ModalBody>
                                     <ModalFooter>
                                         <Button onClick={onClose}>Close</Button>
