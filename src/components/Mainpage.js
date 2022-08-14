@@ -6,13 +6,6 @@ import './css/Mainpage.css'
 function Mainpage() {
 
 
-    let [rotate, setRotate] = useState('rotate(0deg)')
-
-    useEffect(() => {
-        setRotate('rotate(360deg)')
-    }, [])
-
-
     return (
         <>
             <Flex
