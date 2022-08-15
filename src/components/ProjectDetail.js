@@ -20,7 +20,7 @@ function ProjectDetail({ title, image, details, sourcelink }) {
                     <Box mt='2vh' bg={bg} borderRadius='md' p="5vh">
                         <Text>Languages and frameworks </Text>
                         <Flex w='30vh' justifyContent='space-between' flexDir='column'>
-                            <Box display='flex' alignItems='baseline'>
+                            <Box display='flex' alignItems='baseline' flexDir='column'>
                                 <Badge borderRadius='full' px='2' colorScheme='teal' ml={1}>
                                     Django
                                 </Badge>
