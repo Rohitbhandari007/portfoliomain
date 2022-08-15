@@ -21,9 +21,22 @@ function Projects() {
                 <Text fontSize='3xl' fontWeight='600'>Projects</Text>
 
                 <Flex flexDir={['column', 'column']}>
-                    <ProjectItem title={'Journal Note'} image={projectimg} details={'username:guest , password:guest'}></ProjectItem>
+                    <ProjectItem
+                        title={'Journal Note'}
+                        image={projectimg}
+                        details={'username:guest , password:guest'}
+                        sitelink={'https://journalnote.herokuapp.com/'}
 
-                    <ProjectItem title={'Social Media'} image={proj2} details={'Not live yet'}></ProjectItem>
+                    ></ProjectItem>
+
+
+                    <ProjectItem
+                        title={'Social Media'}
+                        image={proj2}
+                        details={'Not live yet'}
+                        sourcelink={'https://github.com/Rohitbhandari007/socialmedia-react'}
+
+                    ></ProjectItem>
 
 
                 </Flex>

@@ -11,7 +11,7 @@ import {
 import ProjectDetail from './ProjectDetail'
 
 
-function ProjectItem({ title, image, details }) {
+function ProjectItem({ title, image, details, sitelink, sourcelink }) {
 
     const { isOpen, onOpen, onClose } = useDisclosure()
 
@@ -27,15 +27,14 @@ function ProjectItem({ title, image, details }) {
                     <Box p='6'>
 
                         <Box display='flex' mt='2' alignItems='center'>
-                            <Button size='xs' ml="1vh">View Site</Button>
-                            <Button size='xs' ml="1vh">Source Code</Button>
+                            <a href={sitelink}><Button size='xs' ml="1vh">View Site</Button></a>
                             <Button size='xs' ml="1vh" onClick={onOpen}>Project Details</Button>
                             <Modal onClose={onClose} size='full' isOpen={isOpen}>
                                 <ModalOverlay />
                                 <ModalContent>
                                     <ModalCloseButton />
                                     <ModalBody>
-                                        <ProjectDetail title={title} image={image} details={details}></ProjectDetail>
+                                        <ProjectDetail title={title} image={image} details={details} sourcelink={sourcelink}></ProjectDetail>
                                     </ModalBody>
                                 </ModalContent>
                             </Modal>

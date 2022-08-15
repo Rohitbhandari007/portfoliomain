@@ -1,9 +1,9 @@
 import { React } from 'react'
-import { Flex, Text, Image, Box, useColorModeValue, Badge } from '@chakra-ui/react'
+import { Flex, Text, Image, Box, useColorModeValue, Badge, Button } from '@chakra-ui/react'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
-function ProjectDetail({ title, image, details }) {
+function ProjectDetail({ title, image, details, sourcelink }) {
 
     const bg = useColorModeValue('#edf1f8', 'whiteAlpha.100')
 
@@ -36,12 +36,15 @@ function ProjectDetail({ title, image, details }) {
 
                             </Box>
                         </Flex>
+
                         <Text mt='2vh'>
                             Login Creds :
                         </Text>
                         <Text>
                             {details}
                         </Text>
+
+                        <a href={sourcelink}><Button size='xs' ml="1vh">Source Code</Button></a>
 
                     </Box>
                 </Flex>
