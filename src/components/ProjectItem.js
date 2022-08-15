@@ -9,22 +9,10 @@ import {
 
 } from '@chakra-ui/react'
 import ProjectDetail from './ProjectDetail'
-import projectimg from './img/projectimg.png'
-import { SlideData } from "./SlideData";
 
 
-function ProjectItem({ title }) {
+function ProjectItem({ title, image }) {
 
-    const property = {
-        imageUrl: projectimg,
-        imageAlt: 'Social media',
-        beds: 3,
-        baths: 2,
-        title: 'Social Media',
-        formattedPrice: '$1,900.00',
-        reviewCount: 34,
-        rating: 4,
-    }
     const { isOpen, onOpen, onClose } = useDisclosure()
 
 
@@ -34,7 +22,7 @@ function ProjectItem({ title }) {
 
                 <Box maxW='lg' borderWidth='1px' borderRadius='lg' overflow='hidden' >
                     <Text p={4}>{title}</Text>
-                    <Image src={property.imageUrl} alt={property.imageAlt} />
+                    <Image src={image} />
 
                     <Box p='6'>
                         <Box display='flex' alignItems='baseline'>
@@ -59,12 +47,9 @@ function ProjectItem({ title }) {
                                     <ModalCloseButton />
                                     <ModalBody>
                                         <Box w="50%" p={4} color="white" display='flex' flexDir='column'>
-                                            <ProjectDetail slides={SlideData}></ProjectDetail>
+                                            <ProjectDetail></ProjectDetail>
                                         </Box>
                                     </ModalBody>
-                                    <ModalFooter>
-                                        <Button onClick={onClose}>Close</Button>
-                                    </ModalFooter>
                                 </ModalContent>
                             </Modal>
 

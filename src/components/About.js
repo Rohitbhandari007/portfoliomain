@@ -13,7 +13,7 @@ function About() {
                 mt="20vh"
                 alignItems='center'
                 textAlign='center'
-
+                id='about'
 
             >
                 <Divider></Divider>
@@ -23,17 +23,8 @@ function About() {
                     <Box bg='' w={['100%', "50%"]} display='flex' flexDir={['column', 'row']} alignItems='center'>
 
                         <Image src={rohitbhandari} h={["35vh", "40vh"]} w={["38vh", "40vh"]} borderRadius='lg'></Image>
-
-
-                        <Flex flexDir={['row', 'column']} m={["0vh", "5vh"]}>
-                            <Icon as={FaLinkedin} m="1vh" h={10} w={10} cursor="pointer" ></Icon>
-                            <Icon as={FaGithub} m="1vh" h={10} w={10} cursor="pointer"></Icon>
-                            <Icon as={FaInstagram} m="1vh" h={10} w={10} cursor="pointer"></Icon>
-
-
-                        </Flex>
                     </Box>
-                    <Box borderRadius='sm' borderWidth='1px' w={['80%', "50%"]}>
+                    <Box borderRadius='sm' borderWidth='1px' w={['80%', "50%"]} mt={['2vh', '0vh']}>
                         <Flex justifyContent='flex-start'>
                             <Icon m="1vh" color='red.400' as={FaDotCircle}></Icon>
                             <Icon m="1vh" color='green.400' as={FaDotCircle}></Icon>
