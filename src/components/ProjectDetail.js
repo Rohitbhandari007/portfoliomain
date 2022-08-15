@@ -1,23 +1,51 @@
 import { React } from 'react'
-import { Flex, Text } from '@chakra-ui/react'
+import { Flex, Text, Image, Box, useColorModeValue, Badge } from '@chakra-ui/react'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
-function ProjectDetail({ title, image }) {
+function ProjectDetail({ title, image, details }) {
 
+    const bg = useColorModeValue('#edf1f8', 'whiteAlpha.100')
 
     return (
         <>
-            <Flex flexDir={['column, row']} justifyContent='space-around'>
+            <Flex flexDir={['column, column']} justifyContent='space-around' >
                 <Flex flexDir='column'>
-                    <Text>Journal Note</Text>
+                    <Text fontWeight='600'> {title}</Text>
 
+                    <Box w={['auto', '140vh']} border='sm' mt='2vh' >
+                        <Image src={image} objectPosition='center center' objectFit='cover' borderRadius='md'></Image>
+                    </Box>
 
+                    <Box mt='2vh' bg={bg} borderRadius='md' p="5vh">
+                        <Text>Languages and frameworks </Text>
+                        <Flex w='30vh' justifyContent='space-between' flexDir='column'>
+                            <Box display='flex' alignItems='baseline'>
+                                <Badge borderRadius='full' px='2' colorScheme='teal' ml={1}>
+                                    Django
+                                </Badge>
+                                <Badge borderRadius='full' px='2' colorScheme='teal' ml={1}>
+                                    React
+                                </Badge>
+                                <Badge borderRadius='full' px='2' colorScheme='teal' ml={1}>
+                                    Chakra UI
+                                </Badge>
+                                <Badge borderRadius='full' px='2' colorScheme='teal' ml={1}>
+                                    Django RestFramework
+                                </Badge>
+
+                            </Box>
+                        </Flex>
+                        <Text mt='2vh'>
+                            Login Creds :
+                        </Text>
+                        <Text>
+                            {details}
+                        </Text>
+
+                    </Box>
                 </Flex>
-                <Flex>
-                    <Text>Languages and frameworks</Text>
 
-                </Flex>
             </Flex>
         </>
     )

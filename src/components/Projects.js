@@ -21,9 +21,9 @@ function Projects() {
                 <Text fontSize='3xl' fontWeight='600'>Projects</Text>
 
                 <Flex flexDir={['column', 'column']}>
-                    <ProjectItem title={'Journal Note'} image={projectimg}></ProjectItem>
+                    <ProjectItem title={'Journal Note'} image={projectimg} details={'username:guest , password:guest'}></ProjectItem>
 
-                    <ProjectItem title={'Social Media'} image={proj2}></ProjectItem>
+                    <ProjectItem title={'Social Media'} image={proj2} details={'Not live yet'}></ProjectItem>
 
 
                 </Flex>
