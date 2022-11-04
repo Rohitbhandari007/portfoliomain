@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/portfoliomain/static/css/main.83b16f54.css",
-    "main.js": "/portfoliomain/static/js/main.e9488277.js",
+    "main.js": "/portfoliomain/static/js/main.635f1683.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfoliomain/static/js/787.1ed0c42c.chunk.js",
+    "static/media/on1.gif": "/portfoliomain/static/media/on1.b36f3c46ea235fe101e8.gif",
+    "static/media/on2.gif": "/portfoliomain/static/media/on2.4582f10b70dde5763f16.gif",
     "static/media/proj2.png": "/portfoliomain/static/media/proj2.b975b95e2f6513a47cc6.png",
     "static/media/dejavu-mono-latin-400-normal.woff": "/portfoliomain/static/media/dejavu-mono-latin-400-normal.40491fc66f732c95d5f0.woff",
     "static/media/rohitbhandari.jpg": "/portfoliomain/static/media/rohitbhandari.16990576697367abe57e.jpg",
@@ -16,11 +18,11 @@
     "index.html": "/portfoliomain/index.html",
     "static/media/djangoproject.svg": "/portfoliomain/static/media/djangoproject.c708d4a601bf15df02d44786dc248a57.svg",
     "main.83b16f54.css.map": "/portfoliomain/static/css/main.83b16f54.css.map",
-    "main.e9488277.js.map": "/portfoliomain/static/js/main.e9488277.js.map",
+    "main.635f1683.js.map": "/portfoliomain/static/js/main.635f1683.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfoliomain/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83b16f54.css",
-    "static/js/main.e9488277.js"
+    "static/js/main.635f1683.js"
   ]
 }
