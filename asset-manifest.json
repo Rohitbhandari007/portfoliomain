@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portfoliomain/static/css/main.83b16f54.css",
-    "main.js": "/portfoliomain/static/js/main.635f1683.js",
+    "main.js": "/portfoliomain/static/js/main.7a24df44.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfoliomain/static/js/787.1ed0c42c.chunk.js",
-    "static/media/on1.gif": "/portfoliomain/static/media/on1.b36f3c46ea235fe101e8.gif",
-    "static/media/on2.gif": "/portfoliomain/static/media/on2.4582f10b70dde5763f16.gif",
     "static/media/proj2.png": "/portfoliomain/static/media/proj2.b975b95e2f6513a47cc6.png",
+    "static/media/trip.png": "/portfoliomain/static/media/trip.eb32029094be30a6db38.png",
     "static/media/dejavu-mono-latin-400-normal.woff": "/portfoliomain/static/media/dejavu-mono-latin-400-normal.40491fc66f732c95d5f0.woff",
     "static/media/rohitbhandari.jpg": "/portfoliomain/static/media/rohitbhandari.16990576697367abe57e.jpg",
+    "static/media/trp.png": "/portfoliomain/static/media/trp.1189b70fdb878802ff12.png",
     "static/media/dejavu-mono-latin-400-normal.woff2": "/portfoliomain/static/media/dejavu-mono-latin-400-normal.a3694647484f8f2e2c52.woff2",
     "static/media/patrick-hand-all-400-normal.woff": "/portfoliomain/static/media/patrick-hand-all-400-normal.c5751db7c4cab52282f0.woff",
-    "static/media/projectimg.png": "/portfoliomain/static/media/projectimg.8bfb34a6e6be39abb728.png",
+    "static/media/tw.jpg": "/portfoliomain/static/media/tw.8ec190b9291a3479e6f0.jpg",
     "static/media/patrick-hand-latin-400-normal.woff2": "/portfoliomain/static/media/patrick-hand-latin-400-normal.8a93868e26f0b1154a7d.woff2",
     "static/media/patrick-hand-latin-ext-400-normal.woff2": "/portfoliomain/static/media/patrick-hand-latin-ext-400-normal.edd6205532c547d91fed.woff2",
     "static/media/patrick-hand-vietnamese-400-normal.woff2": "/portfoliomain/static/media/patrick-hand-vietnamese-400-normal.513c4013a6e1f2df73e8.woff2",
@@ -18,11 +18,11 @@
     "index.html": "/portfoliomain/index.html",
     "static/media/djangoproject.svg": "/portfoliomain/static/media/djangoproject.c708d4a601bf15df02d44786dc248a57.svg",
     "main.83b16f54.css.map": "/portfoliomain/static/css/main.83b16f54.css.map",
-    "main.635f1683.js.map": "/portfoliomain/static/js/main.635f1683.js.map",
+    "main.7a24df44.js.map": "/portfoliomain/static/js/main.7a24df44.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfoliomain/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83b16f54.css",
-    "static/js/main.635f1683.js"
+    "static/js/main.7a24df44.js"
   ]
 }
