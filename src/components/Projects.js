@@ -36,7 +36,7 @@ function Projects() {
                     <ProjectItem
                         title={'Twitter Clone'}
                         image={tw}
-                        details={'username:guest , password:guest'}
+                        details={'Just a replica of twitter using react and django with real time notification and chat system purely on django channels'}
                         sitelink={'https://journalnote.herokuapp.com/'}
 
                     ></ProjectItem>
@@ -51,7 +51,7 @@ function Projects() {
                     <ProjectItem
                         title={'Social Media'}
                         image={projectimg}
-                        details={'Not live yet'}
+                        details={'Simple social media website. Made it for fun'}
                         sourcelink={'https://github.com/Rohitbhandari007/socialmedia-react'}
 
                     ></ProjectItem>

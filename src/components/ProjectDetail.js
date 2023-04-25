@@ -18,7 +18,7 @@ function ProjectDetail({ title, image, details, sourcelink }) {
                     </Box>
 
                     <Box mt='2vh' bg={bg} borderRadius='md' p="5vh">
-                        <Text>Languages and frameworks </Text>
+                        {/* <Text>Languages and frameworks </Text>
                         <Flex w='30vh' justifyContent='space-between' flexDir='column'>
                            
                             <Box display='flex' alignItems='baseline' flexDir='column' gap={2}>
@@ -37,7 +37,7 @@ function ProjectDetail({ title, image, details, sourcelink }) {
 
                             </Box>
                             
-                        </Flex>
+                        </Flex> */}
 
                         <Text mb={4}>
                             {details}
