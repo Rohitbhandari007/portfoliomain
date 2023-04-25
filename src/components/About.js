@@ -35,17 +35,15 @@ function About() {
                         <Box m={2}>
                         <Text fontSize='sm' mt='1vh' p={2}></Text>
                         Hello, my name is Rohit Bhandari and I'm a software developer from Nepal
-                        <Text>Here are some of the technologies I work with:</Text>
-                            <UnorderedList>
-                                <ListItem>Django</ListItem>
-                                <ListItem>React</ListItem>
-                                <ListItem>AWS</ListItem>
-                                <ListItem>Redis</ListItem>
-                                <ListItem>Docker</ListItem>
-                                <ListItem>Bootstrap/CSS</ListItem>
-                                <ListItem>Postgres</ListItem>
-                                <ListItem>HTML</ListItem>
-                                <ListItem>WordPress</ListItem>
+                        <Text mt={2} >Here are some of the technologies I work with:</Text>
+                            <UnorderedList fontSize='xs'>
+                                <ListItem>Django (MVT, Rest API, Channels)</ListItem>
+                                <ListItem>React (Web)</ListItem>
+                                <ListItem>AWS (EC2 monitoring, deployment, cost management)</ListItem>
+                                <ListItem>Bootstrap/CSS/HTML/JavaScript</ListItem>
+                                <ListItem>Postgres, Redis, Mysql, Firebase</ListItem>
+                                <ListItem>Extraas: Soap API, WordPress, Docker</ListItem>
+
                             </UnorderedList>
                             </Box>
                     </Box>

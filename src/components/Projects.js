@@ -37,7 +37,7 @@ function Projects() {
                         title={'Twitter Clone'}
                         image={tw}
                         details={'Just a replica of twitter using react and django with real time notification and chat system purely on django channels'}
-                        sitelink={'https://journalnote.herokuapp.com/'}
+                        sitelink={'https://github.com/Rohitbhandari007/twitter-clone-api'}
 
                     ></ProjectItem>
                        {/* <ProjectItem
