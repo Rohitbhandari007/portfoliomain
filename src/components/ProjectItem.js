@@ -27,7 +27,7 @@ function ProjectItem({ title, image, details, sitelink, sourcelink }) {
                     <Box p='6'>
 
                         <Box display='flex' mt='2' alignItems='center'>
-                            <a href={sitelink}><Button size='xs' ml="1vh">View Site</Button></a>
+                            {/* <a href={sitelink}><Button size='xs' ml="1vh">View Site</Button></a> */}
                             <Button size='xs' ml="1vh" onClick={onOpen}>Project Details</Button>
                             <Modal onClose={onClose} size='full' isOpen={isOpen}>
                                 <ModalOverlay />

@@ -1,8 +1,12 @@
 import { React } from 'react'
 import { Flex, Text } from '@chakra-ui/react'
 import ProjectItem from './ProjectItem'
-import projectimg from './img/projectimg.png'
-import proj2 from './img/proj2.png'
+import projectimg from './img/proj2.png'
+import tw from './img/tw.jpg'
+import trip from './img/trip.png'
+
+import tripturbo from './img/trp.png'
+
 
 
 function Projects() {
@@ -21,18 +25,32 @@ function Projects() {
                 <Text fontSize='3xl' fontWeight='600'>Projects</Text>
 
                 <Flex flexDir={['column', 'column']}>
+                    
+                <ProjectItem
+                        title={'Trip Turbo'}
+                        image={trip}
+                        details={'Its an ongoing project based on travel and tourism in Nepal.'}
+                        sourcelink={'https://www.tripturbo.com/'}
+
+                    ></ProjectItem>
                     <ProjectItem
-                        title={'Journal Note'}
-                        image={projectimg}
+                        title={'Twitter Clone'}
+                        image={tw}
                         details={'username:guest , password:guest'}
                         sitelink={'https://journalnote.herokuapp.com/'}
 
                     ></ProjectItem>
+                       {/* <ProjectItem
+                        title={'College App'}
+                        image={projectimg}
+                        details={'Not live yet'}
+                        sourcelink={'https://github.com/Rohitbhandari007/academia-app'}
 
+                    ></ProjectItem> */}
 
                     <ProjectItem
                         title={'Social Media'}
-                        image={proj2}
+                        image={projectimg}
                         details={'Not live yet'}
                         sourcelink={'https://github.com/Rohitbhandari007/socialmedia-react'}
 

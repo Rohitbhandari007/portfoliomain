@@ -33,9 +33,10 @@ function About() {
                         <Divider></Divider>
 
                         <Text fontSize='sm' mt='1vh' p={2} textAlign='justify'>
-                            Hello my name is Rohit Bhandari. Im a full-stack web developer from Nepal.
-                            I've been learning web development process since 3 years.
-                            I'm working with frontend  and backend frameworks like React and Django.
+                            Hello my name is Rohit Bhandari. Im a software developer (any-stack) from Nepal.
+                            
+                           
+                            
 
                         </Text>
                     </Box>
